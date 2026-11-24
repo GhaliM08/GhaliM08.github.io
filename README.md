@@ -28,8 +28,3 @@
 ## الرابط المنشور
 
 [ghalim08.github.io](https://ghalim08.github.io/)
-
-## الفحص
-
-- W3C Validator: لم يُعَد فحصها بعد إضافة `style.css` وتعديل القائمة.
-- Lighthouse Accessibility: لم يُعَد فحصها بعد التعديلات.
