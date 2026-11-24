@@ -4,41 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>مشاريعي | غالي</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <p><a href="index.html">غالي</a></p>
-    <nav>
-      <a href="index.html">عنّي</a> |
-      <a href="projects.html">مشاريعي</a> |
-      <a href="contact.html">تواصل معي</a>
+  <header class="site-header container">
+    <p class="site-name"><a href="index.html">غالي</a></p>
+    <nav aria-label="القائمة الرئيسية">
+      <ul class="nav-list">
+        <li><a href="index.html">عنّي</a></li>
+        <li><a href="projects.html">مشاريعي</a></li>
+        <li><a href="contact.html">تواصل معي</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main>
+  <main class="container">
     <h1>مشاريعي</h1>
 
-    <article>
-      <h2>موقع شخصي بـ HTML</h2>
-      <p>صفحات بسيطة فيها عنوان وقوائم وجدول ونموذج، وهو أول مشروع أبنيه من الصفر.</p>
-      <figure>
-        <img src="images/project-1.jpg" alt="صورة توضح تصميم الموقع الشخصي" width="600" height="400">
-        <figcaption>الصورة المبدئية للمشروع الأول</figcaption>
-      </figure>
-    </article>
+    <div class="projects-grid">
+      <article>
+        <h2>موقع شخصي بـ HTML</h2>
+        <p>صفحات بسيطة فيها عنوان وقوائم وجدول ونموذج، وهو أول مشروع أبنيه من الصفر.</p>
+        <figure>
+          <img src="images/project-1.jpg" alt="صورة توضح تصميم الموقع الشخصي" width="600" height="400">
+          <figcaption>الصورة المبدئية للمشروع الأول</figcaption>
+        </figure>
+      </article>
 
-    <article>
-      <h2>تحليل بيانات مبيعات</h2>
-      <p>فكرة لمشروع أبني فيه تحليلًا لبيانات مبيعات بسيطة باستخدام Python وأعرض نتائجه في صفحة.</p>
-    </article>
+      <article>
+        <h2>تحليل بيانات مبيعات</h2>
+        <p>فكرة لمشروع أبني فيه تحليلًا لبيانات مبيعات بسيطة باستخدام Python وأعرض نتائجه في صفحة.</p>
+      </article>
 
-    <article>
-      <h2>تطبيق المطارات ومراقبتها</h2>
-      <p>تطبيق يعرض معلومات المطارات ويتابع حالة الرحلات .</p>
-    </article>
+      <article>
+        <h2>تطبيق المطارات ومراقبتها</h2>
+        <p>تطبيق يعرض معلومات المطارات ويتابع حالة الرحلات .</p>
+      </article>
+    </div>
   </main>
 
-  <footer>
+  <footer class="site-footer container">
     <p>© غالي</p>
   </footer>
 </body>
