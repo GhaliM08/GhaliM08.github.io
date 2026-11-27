@@ -1,0 +1,56 @@
+[
+  {
+    "title": "طقس الطيران المباشر (ETL)",
+    "description": "تطبيق ويب بلغة بايثون يجلب بيانات طقس الطيران METAR مباشرة وينظفها ويعرضها برسوم واضحة عبر Streamlit.",
+    "category": "data",
+    "image": "assets/images/aviation-weather.webp",
+    "tags": ["Python", "Streamlit", "ETL"],
+    "code": "https://github.com/GhaliM08/Aviation-Weather-ETL"
+  },
+  {
+    "title": "ورشة التعامل مع البيانات",
+    "description": "حلول تحديات تنظيف وتحليل البيانات: بيانات تايتانك، وبيانات متجر إلكتروني مع ترتيب أعلى 5 دول بالمبيعات.",
+    "category": "data",
+    "image": "assets/images/data-handling.webp",
+    "tags": ["Python", "Pandas", "Jupyter"],
+    "code": "https://github.com/GhaliM08/data-handling-workshop"
+  },
+  {
+    "title": "تطبيق Excel: صفقات العقار",
+    "description": "تمرين عملي لمعسكر البيانات: تنظيف 1,220 صفقة عقارية (تكرار، أسعار فاضية، تصنيفات مختلفة) ثم تلخيصها بالمعادلات والجداول المحورية.",
+    "category": "data",
+    "image": "assets/images/excel-realestate.webp",
+    "tags": ["Excel", "تنظيف بيانات", "Pivot"]
+  },
+  {
+    "title": "منظم المذاكرة",
+    "description": "برنامج بايثون يضيف مهام المذاكرة ويعرضها، يعلّم المنجز منها، ويعطي ملخص للتقدم واقتراح مهمة عشوائية.",
+    "category": "web",
+    "image": "assets/images/study-planner.webp",
+    "tags": ["Python", "Jupyter"],
+    "code": "https://github.com/GhaliM08/Study-Planner"
+  },
+  {
+    "title": "موقعي الشخصي الأول",
+    "description": "أول موقع بنيته بـ HTML و CSS من ثلاث صفحات: عنّي، مشاريعي، ونموذج تواصل، ومنشور على GitHub Pages.",
+    "category": "web",
+    "image": "assets/images/first-site.webp",
+    "tags": ["HTML", "CSS", "GitHub Pages"],
+    "demo": "https://ghalim08.github.io/",
+    "code": "https://github.com/GhaliM08/GhaliM08.github.io"
+  },
+  {
+    "title": "عروض ورش معسكرات Ctrl + A",
+    "description": "تصميم عروض ورش معسكر \"من الصفر إلى البورتفوليو\" ومعسكر البيانات (Excel و Power BI) على قالب موحّد، مع دليل المشاركين.",
+    "category": "design",
+    "image": "assets/images/ctrla-decks.webp",
+    "tags": ["Canva", "تصميم عروض", "هوية بصرية"]
+  },
+  {
+    "title": "لوحة Power BI: سوق العقار",
+    "description": "لوحة تحكم تفاعلية لصفقات العقار للربع الأول إلى الثالث: Power Query لتجهيز البيانات، ومقاييس DAX، ورسوم حسب المنطقة والشهر.",
+    "category": "design",
+    "image": "assets/images/powerbi-dashboard.webp",
+    "tags": ["Power BI", "DAX", "Dashboard"]
+  }
+]
